@@ -17,6 +17,7 @@ class RecentPosts extends Component {
             if(index < 3) {
                 return (
                     <Post {...post} key={index}/>
+                    //Same as <Post title= {post.title} content={post.content} associated_topics={post.associated_topics} key={index}/>
                 )   
             }
         })
