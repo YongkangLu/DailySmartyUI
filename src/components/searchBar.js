@@ -9,6 +9,7 @@ class SearchBar extends Component {
         this.props.onSubmit(query);
     }
 
+
     renderInput(field) {
         return <input type="text" placeholder="Search DailySmarty" {...field.input} />
     }
